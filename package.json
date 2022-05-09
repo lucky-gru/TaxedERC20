@@ -1,0 +1,39 @@
+{
+  "name": "taxederc20",
+  "version": "1.0.0",
+  "description": "erc20 token with fees",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucky-gru/TaxedERC20.git"
+  },
+  "keywords": [
+    "erc20",
+    "blacklisting",
+    "fee",
+    "openzeppelin",
+    "solidity",
+    "hardhat"
+  ],
+  "author": "lucky-gru",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/lucky-gru/TaxedERC20/issues"
+  },
+  "homepage": "https://github.com/lucky-gru/TaxedERC20#readme",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.5",
+    "@nomiclabs/hardhat-truffle5": "^2.0.5",
+    "@nomiclabs/hardhat-waffle": "^2.0.3",
+    "@nomiclabs/hardhat-web3": "^2.0.0",
+    "@openzeppelin/contracts": "^4.6.0",
+    "@openzeppelin/test-helpers": "^0.5.15",
+    "ethereum-waffle": "^3.4.4",
+    "ethers": "^5.6.5",
+    "hardhat": "^2.9.3",
+    "web3": "^1.7.3"
+  }
+}
